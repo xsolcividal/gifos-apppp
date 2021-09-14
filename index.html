@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Chakra+Petch&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Chakra+Petch:700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Chakra+Petch&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@700&display=swap" rel="stylesheet">
+    <link id="estilos" rel="stylesheet" href="estilos/estilos.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Proyecto Gif OS</title>
+</head>
+<body>
+    <div class="bienvenidos" id="bienvenidos">
+        <p>¡Bienvenidos/as a Guifos.com! ——————Donde los gifs están.////// Número de visitas: 12.765.803</p>
+    </div>
+    <div class="nav">
+        <img id="logo-dark" class="logo" src="img/gifOF_logo_dark.png" alt="gifOF_logo_dark">
+        <img id="logo" class="logo" src="gifOF_logo.png" alt="gifOF_logo">
+        <button id="crear-btn" class="crear"> Crear Guifos</button>
+        <div class="space"></div>
+        <button id="tema-btn" class="crear">Elegir Tema </button>
+        <div class="dropdown-container" id="dropdown-container">
+            <button class="dropbtn" id="dropbtn"> <img src="img/dropdown.svg" alt="Boton Dropdown">
+            </button>
+        <div class="themes" id="menu-container">
+            <ul id="menu" class="menu-hidden">
+                <li><button id="btn-silver" class="btn-silve">Sailor Day </button></li>
+                <li><button id="btn-night" class="btn-night">Sailor Night </button></li>
+            </ul>
+        </div>
+    </div>  
+        <div class="misguifos"> 
+           <a href="subir.html#uploaded-gifs"> <u>M</u>is Guifos</a>
+        </div>
+    </div>
+    
+    <div id="bus-cont" class="bus-cont">
+        <p>Buscar</p>
+    </div>
+    <form id="search-form">
+    <div class="cont2" id="search-cnt"> 
+        <input id="search-input" type="search" placeholder="Busca gifs, hashtags, temas, busca lo que quieras…"/> 
+        <button id="btnSearch" class="btn-search" type="submit"><img src="img/lupa_inactive.svg" alt="Lupa Inactive"> Buscar</button>
+    </div>
+    <div class=sugerido-busqueda id="sugerido-busq">
+        <div class="container-span"><span>frenchie</span></div>
+        <div class="container-span"><span>bulldog</span></div>
+        <div class="container-span"><span>amor</span></div>
+    </div>  
+    </form>
+    <div class="sug" id="resultados-busqueda">
+        <p>Resultados de busqueda (resultados):</p>
+    </div>
+    <div class="ejemplos-busqueda"> 
+        <span>#puppy</span>
+        <span>#lovely</span>
+        <span>#cute</span>
+    </div>
+    <div id="results" class="results">
+    </div>
+
+    <div class="out" id="out-id">
+    </div>
+    <div class="sug" id="sug-id">
+        <p>Hoy te sugerimos: </p>
+    </div>
+    <div class="gallery" id="gallery-id"> 
+        <div id="sugerencias">
+        </div>
+    </div>
+
+    <div class="sug" id="color-id">
+        <p>Tendencias</p>
+    </div> 
+    <div id="tendencias" > 
+    </div>
+<script src="js/script.js"></script>
+</body>
+</html>
